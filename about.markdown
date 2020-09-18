@@ -4,4 +4,4 @@ title: about
 permalink: /about/
 ---
 
-Aeronautical engineer, entrepreneur, student (masters in computer science), and amateur triathlete...
+Aeronautical engineer, entrepreneur, student (masters in computer science), and amateur triathlete.

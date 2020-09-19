@@ -270,7 +270,7 @@ class CVAE(nn.Module):
 The training code can be found in the [Github repo](https://github.com/pyro-ppl/pyro/tree/dev/examples/cvae). 
 Click play in the video below to watch how the CVAE learns throughout approximately 40 epochs.
 
-<video muted controls loop>
+<video muted controls loop width="100%">
     <source src="https://ucals-github.s3-sa-east-1.amazonaws.com/cvae_animation.mp4" type="video/mp4">
     <source src="https://ucals-github.s3-sa-east-1.amazonaws.com/cvae_animation.webm" type="video/webm">
     https://youtu.be/K7SEJMlzHD8

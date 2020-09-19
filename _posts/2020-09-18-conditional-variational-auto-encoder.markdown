@@ -280,8 +280,8 @@ As we can see, the model learned posterior distribution continuously improves as
 not only the loss goes down, but also we can see clearly how the predictions get better and better.
 
 Additionally, here we can already observe the key advantage of CVAEs: the model learns to generate multiple predictions from a single input.
-In the first digit, the input is clearly a piece of a 7. The model learns it and keep predicting clearer 7's, but with different writing styles.
-In the second and third digits, the inputs are pieces of what could be a 3 or a 5 (truth is 3), and what could ne a 4 or a 9 (truth is 4).
+In the first digit, the input is clearly a piece of a 7. The model learns it and keeps predicting clearer 7's, but with different writing styles.
+In the second and third digits, the inputs are pieces of what could be either a 3 or a 5 (truth is 3), and what could be either a 4 or a 9 (truth is 4).
 During the first epochs, the CVAE predictions are blurred, and they get clearer as time passes, as expected.
 
 However, different from the first digit, it's hard to determine whether the truth is 3 and 4 for the second and third digits, respectively, by observing only one quarter of the digits as input.

@@ -16,7 +16,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2020-09-18T11:57:41-03:00" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"carlos souza"},"url":"http://localhost:4000/paper/2020/09/18/conditional-variational-auto-encoder.html","headline":"Conditional Variational Auto-encoder","dateModified":"2020-09-18T11:57:41-03:00","datePublished":"2020-09-18T11:57:41-03:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/paper/2020/09/18/conditional-variational-auto-encoder.html"},"description":"This tutorial implements Learning Structured Output Representation using Deep Conditional Generative Models paper, which introduced Conditional Variational Auto-encoders in 2015, using Pyro PPL and PyTorch.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"headline":"Conditional Variational Auto-encoder","url":"http://localhost:4000/paper/2020/09/18/conditional-variational-auto-encoder.html","dateModified":"2020-09-18T11:57:41-03:00","datePublished":"2020-09-18T11:57:41-03:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/paper/2020/09/18/conditional-variational-auto-encoder.html"},"author":{"@type":"Person","name":"carlos souza"},"description":"This tutorial implements Learning Structured Output Representation using Deep Conditional Generative Models paper, which introduced Conditional Variational Auto-encoders in 2015, using Pyro PPL and PyTorch.","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="cs" />
 <script>
@@ -77,7 +77,7 @@ provided, the lack of probabilistic inference of the current supervised deep lea
 model a complex structured output representations. In this work, Kihyuk Sohn, Honglak Lee and Xinchen Yan develop a 
 scalable deep conditional generative model for structured output variables using Gaussian latent variables. The model 
 is trained efficiently in the framework of stochastic gradient variational Bayes, and allows a fast prediction using 
-stochastic feed-forward inference. They called the model Conditional Variational Auto-encoder (CVAE) <a class="citation" href="#NIPS2015_5775">(Sohn et al., 2015)</a>.</p>
+stochastic feed-forward inference. They called the model Conditional Variational Auto-encoder (CVAE).</p>
 
 <p>The CVAE is a conditional directed graphical model whose input observations modulate the prior on Gaussian latent 
 variables that generate the outputs. It is trained to maximize the conditional marginal log-likelihood. The authors 
@@ -430,7 +430,9 @@ baseline NN</strong>.</p>
 
 <h2 id="references">References</h2>
 
-<ol class="bibliography"><li><span id="NIPS2015_5775">Sohn, K., Lee, H., &amp; Yan, X. (2015). Learning Structured Output Representation using Deep Conditional Generative Models. In C. Cortes, N. D. Lawrence, D. D. Lee, M. Sugiyama, &amp; R. Garnett (Eds.), <i>Advances in Neural Information Processing Systems 28</i> (pp. 3483–3491). Curran Associates, Inc. http://papers.nips.cc/paper/5775-learning-structured-output-representation-using-deep-conditional-generative-models.pdf</span></li></ol>
+<ol>
+  <li>Sohn, K., Lee, H., &amp; Yan, X. (2015). Learning Structured Output Representation using Deep Conditional Generative Models. In C. Cortes, N. D. Lawrence, D. D. Lee, M. Sugiyama, &amp; R. Garnett (Eds.), Advances in Neural Information Processing Systems 28 (pp. 3483–3491). Curran Associates, Inc. http://papers.nips.cc/paper/5775-learning-structured-output-representation-using-deep-conditional-generative-models.pdf</li>
+</ol>
 
   </div><a class="u-url" href="/paper/2020/09/18/conditional-variational-auto-encoder.html" hidden></a>
 </article>

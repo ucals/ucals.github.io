@@ -18,7 +18,7 @@ provided, the lack of probabilistic inference of the current supervised deep lea
 model a complex structured output representations. In this work, Kihyuk Sohn, Honglak Lee and Xinchen Yan develop a 
 scalable deep conditional generative model for structured output variables using Gaussian latent variables. The model 
 is trained efficiently in the framework of stochastic gradient variational Bayes, and allows a fast prediction using 
-stochastic feed-forward inference. They called the model Conditional Variational Auto-encoder (CVAE) {% cite NIPS2015_5775 %}.
+stochastic feed-forward inference. They called the model Conditional Variational Auto-encoder (CVAE).
 
 The CVAE is a conditional directed graphical model whose input observations modulate the prior on Gaussian latent 
 variables that generate the outputs. It is trained to maximize the conditional marginal log-likelihood. The authors 
@@ -356,4 +356,4 @@ See the full code on [Github](https://github.com/pyro-ppl/pyro/blob/dev/examples
 
 ## References
 
-{% bibliography --cited %}
+1. Sohn, K., Lee, H., & Yan, X. (2015). Learning Structured Output Representation using Deep Conditional Generative Models. In C. Cortes, N. D. Lawrence, D. D. Lee, M. Sugiyama, & R. Garnett (Eds.), Advances in Neural Information Processing Systems 28 (pp. 3483–3491). Curran Associates, Inc. http://papers.nips.cc/paper/5775-learning-structured-output-representation-using-deep-conditional-generative-models.pdf
